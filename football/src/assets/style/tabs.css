@@ -1,0 +1,61 @@
+.tabs{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #ffffff;
+  box-shadow: 0 2px 4px #000;
+  width: 100%;
+}
+.tabs ul{
+  display: table;
+  width: 100%;
+}
+.tabs ul li{
+  text-align: center;
+  display: table-cell;
+  padding:8px 12px;
+}
+.tabs ul li .tabs-ico{
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+  display: inline-block;
+}
+.tabs ul li .tabs-text{
+  color:#333;
+}
+.tabs ul li:first-child .tabs-ico{
+  background:url("../images/link/home.svg") center no-repeat;
+}
+.tabs ul li:nth-child(2) .tabs-ico{
+  background:url("../images/link/match.svg") center no-repeat;
+  height: 30px;
+}
+.tabs ul li:nth-child(3) .tabs-ico{
+  background:url("../images/link/star.svg") center no-repeat;
+}
+.tabs ul li:last-child .tabs-ico{
+  background:url("../images/link/me.svg") center no-repeat;
+  height: 30px;
+}
+.tabs ul li.active{
+  background: rgba(0,255,0,0.5);
+}
+.tabs ul li.active .tabs-text{
+  color:#1296db;
+
+}
+.tabs ul li.active:first-child .tabs-ico{
+  background:url("../images/link/home-active.svg") center no-repeat;
+}
+.tabs ul li.active:nth-child(2) .tabs-ico{
+  background:url("../images/link/match-active.svg") center no-repeat;
+  height: 30px;
+}
+.tabs ul li.active:nth-child(3) .tabs-ico{
+  background:url("../images/link/star-active.svg") center no-repeat;
+}
+.tabs ul li.active:last-child .tabs-ico{
+  background:url("../images/link/me-active.svg") center no-repeat;
+  height: 30px;
+}

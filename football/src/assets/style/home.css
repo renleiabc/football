@@ -1,0 +1,107 @@
+.swiper-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-wrapper {
+  height: 200px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height:200px;
+  display: block;
+}
+.swiper-slide {
+  text-align: center;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.section{
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.section .macth-items h1{
+  text-align: left;
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+.macth-items {
+  display: table;
+  width: 100%;
+}
+.macth-items .match {
+  font-size: 10px;
+  text-align: center;
+  float: left;
+  width: 33%;
+  height: 180px;
+}
+.cover {
+  width: 100%;
+  height: 130px;
+  line-height: 130px;
+}
+
+.cover img {
+  width: 80%;
+  height: 80%;
+  vertical-align: middle;
+}
+.title{
+  height: 25px;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.dialog-img img{
+  width:90%;
+  height: 200px;
+}
+.dialog-title,.explain{
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.explain{
+  width: 90%;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: left;
+}
+.dialog-group{
+  width: 100%;
+  height: 25px;
+}
+.dialog-key{
+  display: inline-block;
+  width:17%;
+}
+.dialog-value{
+  display: inline-block;
+  width: 80%;
+  text-align: left;
+}
+.dialog-value  span{
+
+}
