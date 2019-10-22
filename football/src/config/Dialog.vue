@@ -13,7 +13,6 @@
 
 <script>
   export default {
-    name: "dialog",
     data() {
       return {
         is_open: false

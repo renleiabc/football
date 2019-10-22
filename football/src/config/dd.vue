@@ -13,7 +13,6 @@
 
 <script>
   export default {
-    name: "dialog",
     data() {
       return {
         is_open: false
@@ -23,14 +22,14 @@
       open() {
         if (!this.is_open) {
           //触发模态窗口打开事件
-         this.$emit("dialogOpen");
+         this.$emit("dialogOpen","renlei");
         }
         this.is_open = true;
       },
       close() {
         if (this.is_open) {
           //触发模态窗口关闭事件
-          this.$emit('dialogClose')
+          this.$emit('dialogClose','lilei')
         }
         this.is_open = false;
       }
