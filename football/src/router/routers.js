@@ -1,3 +1,10 @@
+/*
+ * @Author: renlei
+ * @Date: 2018-10-29 17:27:33
+ * @LastEditors: renlei
+ * @LastEditTime: 2019-10-22 17:27:22
+ * @Description: 
+ */
 /**
  * Created by renleilei on 18-3-1.
  */
@@ -17,7 +24,7 @@ Vue.use(VueRouter)//使用路由插件
 Vue.use(VueResource)
 
 export default new VueRouter({
-  mode: 'history',
+ // mode: 'history',
   base: __dirname,
   linkActiveClass: "active",
   routes: [

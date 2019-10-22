@@ -2,7 +2,7 @@
  * @Author: renlei
  * @Date: 2018-10-29 17:27:33
  * @LastEditors: renlei
- * @LastEditTime: 2019-10-22 17:10:11
+ * @LastEditTime: 2019-10-22 17:24:06
  * @Description: 
  */
 'use strict'
@@ -50,7 +50,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: './',
+    assetsPublicPath: '',
 
     /**
      * Source Maps
