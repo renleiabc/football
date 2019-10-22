@@ -1,13 +1,20 @@
-{
+/*
+ * @Author: renlei
+ * @Date: 2018-10-29 17:27:33
+ * @LastEditors: renlei
+ * @LastEditTime: 2019-10-22 17:43:36
+ * @Description: 
+ */
+const data = {
   "slides": [
-    {"id": 1, "img_url": "/static/images/match/glir1.jpg"},
-    {"id": 2, "img_url": "/static/images/match/glir2.jpg"},
-    {"id": 3, "img_url": "/static/images/match/glir3.jpg"},
-    {"id": 3, "img_url": "/static/images/match/glir4.jpg"},
-    {"id": 4, "img_url": "/static/images/match/glir5.jpg"},
-    {"id": 5, "img_url": "/static/images/match/glir6.jpg"}
+    {"id": 1, "img_url": "static/images/match/glir1.jpg"},
+    {"id": 2, "img_url": "static/images/match/glir2.jpg"},
+    {"id": 3, "img_url": "static/images/match/glir3.jpg"},
+    {"id": 3, "img_url": "static/images/match/glir4.jpg"},
+    {"id": 4, "img_url": "static/images/match/glir5.jpg"},
+    {"id": 5, "img_url": "static/images/match/glir6.jpg"}
   ], "latstUpdated": [
-  {"id": 1, "title": "2018年世界杯", "img_url": "/static/images/match/cap1.jpg", "slogan": "最强的时刻",
+  {"id": 1, "title": "2018年世界杯", "img_url": "static/images/match/cap1.jpg", "slogan": "最强的时刻",
     "explain":"一共32支球队，分别是：","content":[
     {"A组":["俄罗斯","沙特","埃及","乌拉圭"]},
     {"B组":["葡萄牙","西班牙","摩洛哥","伊朗"]},
@@ -17,7 +24,7 @@
     {"F组":["德国","墨西哥","瑞典","韩国"]},
     {"G组":["比利时","巴拿马","突尼斯","英格兰"]},
     {"H组":["波兰","塞内加尔","哥伦比亚","日本"]}]},
-  {"id": 2, "title": "2014年世界杯", "img_url": "/static/images/match/cap2.jpg", "slogan": "这是你我的期待",
+  {"id": 2, "title": "2014年世界杯", "img_url": "static/images/match/cap2.jpg", "slogan": "这是你我的期待",
     "explain":"一共32支球队，分别是：","content":[
     {"A组":["俄罗斯","沙特","埃及","乌拉圭"]},
     {"B组":["葡萄牙","西班牙","摩洛哥","伊朗"]},
@@ -27,7 +34,7 @@
     {"F组":["德国","墨西哥","瑞典","韩国"]},
     {"G组":["比利时","巴拿马","突尼斯","英格兰"]},
     {"H组":["波兰","塞内加尔","哥伦比亚","日本"]}]},
-  {"id": 3, "title": "2010年世界杯", "img_url": "/static/images/match/cap3.jpg", "slogan": "让世界燃起来",
+  {"id": 3, "title": "2010年世界杯", "img_url": "static/images/match/cap3.jpg", "slogan": "让世界燃起来",
     "explain":"一共32支球队，分别是：","content":[
     {"A组":["俄罗斯","沙特","埃及","乌拉圭"]},
     {"B组":["葡萄牙","西班牙","摩洛哥","伊朗"]},
@@ -38,7 +45,7 @@
     {"G组":["比利时","巴拿马","突尼斯","英格兰"]},
     {"H组":["波兰","塞内加尔","哥伦比亚","日本"]}]}
 ], "recommended": [
-  {"id": 1, "title": "小跳蚤，梅西", "img_url": "/static/images/match/star1.jpg", "slogan": "球王，俯视天下",
+  {"id": 1, "title": "小跳蚤，梅西", "img_url": "static/images/match/star1.jpg", "slogan": "球王，俯视天下",
     "explain":"人物介绍：","content":[
     {"姓名":["里奥·梅西"]},
     {"国籍":["阿根廷"]},
@@ -48,7 +55,7 @@
     {"荣誉":["足球先生5次","欧冠4次","西甲8次"]},
     {"评价":["破纪录的王者"]}
   ]},
-  {"id": 2, "title": "足球精灵，小罗", "img_url": "/static/images/match/star2.jpg", "slogan": "梦幻般的表演",
+  {"id": 2, "title": "足球精灵，小罗", "img_url": "static/images/match/star2.jpg", "slogan": "梦幻般的表演",
     "explain":"人物介绍：","content":[
     {"姓名":["罗纳尔迪尼奥"]},
     {"国籍":["巴西"]},
@@ -58,7 +65,7 @@
     {"荣誉":["足球先生2次","欧冠2次","西甲3次"]},
     {"评价":["绿茵场上的精灵"]}
   ]},
-  {"id": 3, "title": "霸道总裁，C罗", "img_url": "/static/images/match/star3.jpg", "slogan": "欧冠，舍我其谁",
+  {"id": 3, "title": "霸道总裁，C罗", "img_url": "static/images/match/star3.jpg", "slogan": "欧冠，舍我其谁",
     "explain":"人物介绍：","content":[
     {"姓名":["克里斯蒂亚诺·罗纳尔多"]},
     {"国籍":["葡萄牙"]},
@@ -70,3 +77,5 @@
   ]}
 ]
 }
+
+export default data;
