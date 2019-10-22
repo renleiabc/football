@@ -1,3 +1,10 @@
+<!--
+ * @Author: renlei
+ * @Date: 2018-10-29 17:27:33
+ * @LastEditors: renlei
+ * @LastEditTime: 2019-10-22 18:02:31
+ * @Description: 
+ -->
 # football
 
 > A Vue.js project
@@ -24,4 +31,6 @@ npm run e2e
 npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).  
+
+[在线预览](https://renleiabc.github.io/football/football/dist/index.html#/home)
